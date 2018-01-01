@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39996" started-at="2017-10-28T16:02:34Z" finished-at="2017-10-28T16:03:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39996" started-at="2017-10-28T16:02:34Z" finished-at="2017-10-28T16:03:14Z">
+      <class name="com.foto.testcases.VerifySearch">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.foto.testcases.VerifySearch@6cc4c815]" name="startReport" is-config="true" duration-ms="240" started-at="2017-10-28T21:32:34Z" finished-at="2017-10-28T21:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.foto.testcases.VerifySearch@6cc4c815]" name="initBrowser" is-config="true" duration-ms="27119" started-at="2017-10-28T21:32:34Z" finished-at="2017-10-28T21:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="verifySearch_invalidText()[pri:1, instance:com.foto.testcases.VerifySearch@6cc4c815]" name="verifySearch_invalidText" duration-ms="7772" started-at="2017-10-28T21:33:01Z" finished-at="2017-10-28T21:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch_invalidText -->
+        <test-method status="PASS" signature="verifySearch_validText()[pri:2, instance:com.foto.testcases.VerifySearch@6cc4c815]" name="verifySearch_validText" duration-ms="5037" started-at="2017-10-28T21:33:09Z" finished-at="2017-10-28T21:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch_validText -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.foto.testcases.VerifySearch@6cc4c815]" name="endReport" is-config="true" duration-ms="740" started-at="2017-10-28T21:33:14Z" finished-at="2017-10-28T21:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.foto.testcases.VerifySearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

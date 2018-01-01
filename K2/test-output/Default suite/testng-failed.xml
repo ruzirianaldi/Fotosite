@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.foto.testcases.VerifySearch">
+        <methods>
+          <include name="startReport"/>
+          <include name="verifySearch_invalidText"/>
+          <include name="endReport"/>
+          <include name="verifySearch_validText"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.foto.testcases.VerifySearch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

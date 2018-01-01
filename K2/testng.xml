@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Fotosite" verbose="1" >
+  <test name="ValidLogin" >
+    <classes>
+      <class name="com.foto.testcases.ValidLogin"/>
+      <class name="com.foto.testcases.VerifyRegistrationForm"/>
+      <class name="com.foto.testcases.Verify_All_Active_Links_Homepage"/>
+      <class name="com.foto.testcases.VerifyHelpPage"/>
+      <class name="com.foto.testcases.VerifySearch"/>
+</classes>
+</test>
+</suite>
